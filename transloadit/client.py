@@ -22,7 +22,7 @@ FILE_BOUNDARY = '----------Python_Transloadit_Client_Boundary_$'
 CRLF = '\r\n'
 
 
-class Client(object):
+class TransloaditClient(object):
     def __init__(self, key, secret, api=None):
         self.key = key
         self.secret = secret
